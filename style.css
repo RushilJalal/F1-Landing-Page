@@ -166,6 +166,10 @@ li {
     gap: 8px;
 }
 
+.quote {
+    color: #1F2937;
+}
+
 .name {
     font-weight: bold;
 }
