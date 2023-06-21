@@ -134,7 +134,7 @@ li {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: blue;
+    background-color: #008CBA;
     border-radius: 10px;
   }
   
