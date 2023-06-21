@@ -83,3 +83,30 @@ li {
     font-weight: 800;
     color: #F9FAF8;
 }
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.drivers h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.drivers {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+}
+
+.cards {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
