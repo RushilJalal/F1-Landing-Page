@@ -25,4 +25,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
+span.emoji {
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
