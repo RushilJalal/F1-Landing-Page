@@ -153,3 +153,19 @@ li {
     text-align: start;
   }
 
+.quote-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    gap: 8px;
+}
+
+.name {
+    font-weight: bold;
+}
