@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px;
+    padding: 12px;
     height: 60px;
 }
 
@@ -30,11 +30,11 @@ body {
 span.emoji {
     font-size: 40px;
     vertical-align: baseline;
-    /* line-height: 9; */
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
