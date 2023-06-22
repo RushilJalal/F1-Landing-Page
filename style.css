@@ -160,7 +160,6 @@ li {
     align-items: center;
     background-color: #E5E7EB;
     height: 500px;
-    font-size: 36px;
     font-weight: 300;
     font-style: italic;
     gap: 8px;
@@ -168,8 +167,67 @@ li {
 
 .quote {
     color: #1F2937;
+    font-size: 36px;
 }
 
 .name {
     font-weight: bold;
+    font-size: 28px;
+}
+
+.newsletter {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    height: max-content;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.message-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.message-text {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  opacity: 0.7;
+  color: white;
 }
