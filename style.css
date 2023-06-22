@@ -27,15 +27,12 @@ body {
     align-items: center;
 }
 
-span.emoji {
-    font-size: 40px;
-    vertical-align: baseline;
-}
-
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
 }
 
 .links {
