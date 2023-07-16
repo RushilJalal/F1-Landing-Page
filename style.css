@@ -234,7 +234,7 @@ button {
     padding: 10px 25px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 3px 5px lightslategray;
+    box-shadow: 2px 4px lightslategray;
 }
 
 button:hover {
