@@ -172,7 +172,7 @@ li {
     height: 500px;
     font-weight: 300;
     font-style: italic;
-    gap: 8px;
+    gap: 10px;
 }
 
 .quote {
@@ -234,10 +234,17 @@ button {
     padding: 10px 25px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 3px 5px lightslategray;
 }
 
 button:hover {
-    background-color: whitesmoke;
-    opacity: 0.7;
+    background-color: grey;
+    opacity: 0.9;
     color: white;
+}
+
+button:active {
+    background-color: grey;
+    box-shadow: 0 2px lightslategray;
+    transform: translateY(2px);
 }
