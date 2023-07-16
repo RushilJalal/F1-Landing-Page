@@ -248,3 +248,9 @@ button:active {
     box-shadow: 0 2px lightslategray;
     transform: translateY(2px);
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
